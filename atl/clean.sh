@@ -1,1 +1,1 @@
-rm *aux *pdf *toc *log
+rm *aux *tex *toc *log

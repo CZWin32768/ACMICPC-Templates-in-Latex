@@ -5,6 +5,7 @@
 \usepackage{color}
 \usepackage{verbatim}
 \usepackage{geometry}
+\usepackage{fancyhdr}
 
 \title{Code Template for ACM-ICPC}
 \author{CZWin32768 @ BIT}
@@ -14,7 +15,7 @@
 \definecolor{mauve}{rgb}{0.58,0,0.82}
 
 \setlength\columnseprule{0.4pt}
-\geometry{a4paper,left=1cm,right=1cm,top=1cm,bottom=1.5cm}
+\geometry{a4paper,left=1cm,right=1cm,top=2cm,bottom=1.5cm}
 
 \lstset{frame=tb,
   language=c++,
@@ -38,7 +39,16 @@
 \maketitle
 \thispagestyle{empty}
 \pagebreak
-\pagestyle{plain}
+%\pagestyle{plain}
+\pagestyle{fancy}
+\lhead{}
+\rhead{}
+\chead{Code Template for ACM-ICPC, CZWin32768@BIT}
+\cfoot{}
 \tableofcontents
 \end{titlepage}
+
+\pagestyle{fancy}
+\chead{Code Template for ACM-ICPC, CZWin32768@BIT}
+\cfoot{- \thepage \ -}
   
