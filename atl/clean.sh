@@ -1,0 +1,1 @@
+rm *aux *pdf *toc *log
