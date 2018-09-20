@@ -27,6 +27,7 @@ def main(args):
   with open("temp.tex", "w") as f:
     f.write("\n".join(tex))
   os.system("pdflatex temp.tex")
+  os.system("pdflatex temp.tex")
 
 if __name__ == "__main__":
   parser = argparse.ArgumentParser()
